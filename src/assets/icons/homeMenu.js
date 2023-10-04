@@ -1,0 +1,14 @@
+export {default as blackProfile} from "./blackProfile.svg";
+export {default as blackAnalytics} from "./blackAnalytics.svg";
+export {default as blackRocket} from "./blackRocket.svg";
+export {default as blackHome} from "./blackHome.svg";
+export {default as whiteAnalytics} from "./whiteAnalytics.svg";
+export {default as whiteProfile} from "./whiteProfile.svg";
+export {default as whiteRocket} from "./whiteRocket.svg";
+export {default as whiteHome} from "./whiteHome.svg";
+export {default as left} from "./left.png";
+export {default as clock} from "./clock.png";
+export {default as greenClock} from "./timer.png";
+export {default as calories} from "./greenCal.png";
+export {default as pause} from "./pause.svg";
+export {default as play} from "./play.svg";

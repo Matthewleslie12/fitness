@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #f7f6fa;
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 300;
+  src: url(./assets/fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  src: url(./assets/fonts/Lato-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Lato;
+  font-weight: 500;
+  src: url(./assets/fonts/Lato-Heavy.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Lato;
+  font-weight: 700;
+  src: url(./assets/fonts/Lato-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Lato;
+  font-weight: 900;
+  src: url(./assets/fonts/Lato-Black.ttf) format("truetype");
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
